@@ -22,7 +22,7 @@ Multiple users can draw together on the same canvas with live synchronization, c
 ---
 
 ##  Project Structure
-
+```
 collaborative-canvas/
 
 ├── client/
@@ -49,12 +49,15 @@ collaborative-canvas/
    cd collaborative-canvas
 
 2. Instal Dependencies:
+   ```bash
    npm install
 
 3. Start the server:
+   ```bash
    npm start
 
 4. Open your browser:
+   ```bash
    http://localhost:3000
    
 
@@ -74,4 +77,5 @@ Time Spent
 This includes **only what is necessary** for submission: project info, setup, known limitations, and time spent.  
 
 If you want, I can also draft the **ARCHITECTURE.md** exactly like this so you can submit both without changes. Do you want me to do that?
+
 
