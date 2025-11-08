@@ -61,22 +61,23 @@ collaborative-canvas/
    http://localhost:3000
    
 
-Known Limitations
+## Known Limitations
 
-No user authentication
+- No user authentication
 
-Mobile touch support not fully optimized
+- Mobile touch support not fully optimized
 
-Performance may drop with very large strokes or many concurrent users
+- Performance may drop with very large strokes or many concurrent users
 
-Undo/Redo works globally but may cause slight conflicts if many users undo simultaneously
+- Undo/Redo works globally but may cause slight conflicts if many users undo simultaneously
 
-Time Spent
-   3–4 days (development, testing, and debugging)
+## Time Spent
+- 3–4 days (development, testing, and debugging)
 
 This includes **only what is necessary** for submission: project info, setup, known limitations, and time spent.  
 
 If you want, I can also draft the **ARCHITECTURE.md** exactly like this so you can submit both without changes. Do you want me to do that?
+
 
 
 
