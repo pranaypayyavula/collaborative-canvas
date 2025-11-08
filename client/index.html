@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Collaborative Canvas</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ===========================
+        USERNAME / ROOM MODAL
+=========================== -->
+<div id="modal" class="modal">
+    <div class="modal-box">
+
+        <h2 class="modal-title">Join a Room</h2>
+
+        <input id="username" class="modal-input"
+               type="text" placeholder="Enter your name"/>
+
+        <select id="roomSelect" class="modal-input"></select>
+
+        <button id="newRoom" class="modal-btn secondary">New Room</button>
+        <button id="joinBtn" class="modal-btn primary">Join</button>
+
+    </div>
+</div>
+
+<!-- ===========================
+            HEADER
+=========================== -->
+<header class="header">
+    <div class="toolbar">
+
+        <label class="tool">
+            <span>Color</span>
+            <input id="colorPicker" type="color" value="#000000"/>
+        </label>
+
+        <label class="tool">
+            <span>Size</span>
+            <input id="brushSize" type="range" min="1" max="60" value="4"/>
+        </label>
+
+        <button class="btn" id="brushBtn">Brush</button>
+        <button class="btn" id="eraserBtn">Eraser</button>
+        <button class="btn" id="undoBtn">Undo</button>
+        <button class="btn" id="redoBtn">Redo</button>
+        <button class="btn" id="clearBtn">Clear</button>
+        <button class="btn" id="saveBtn">Save</button>
+        <button class="btn" id="loadBtn">Load</button>
+    </div>
+</header>
+
+<!-- ===========================
+            SIDEBAR (USERS)
+=========================== -->
+<aside class="sidebar">
+    <h3>Users</h3>
+    <ul id="users"></ul>
+</aside>
+
+<!-- ===========================
+            CANVAS AREA
+=========================== -->
+<div class="canvas-container">
+    <div class="canvas-scroll">
+        <canvas id="canvas"></canvas>
+    </div>
+</div>
+
+<!-- ===========================
+        PERFORMANCE PANEL
+=========================== -->
+<div id="perfPanel" class="perf-panel">
+    FPS: 0 | Latency: 0 ms
+</div>
+
+<!-- ===========================
+            SCRIPTS
+=========================== -->
+<script src="/socket.io/socket.io.js"></script>
+<script type="module" src="main.js"></script>
+
+</body>
+</html>
