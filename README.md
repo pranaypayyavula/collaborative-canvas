@@ -59,7 +59,6 @@ collaborative-canvas/
 4. Open your browser:
    ```bash
    http://localhost:3000
-   
 
 ## Known Limitations
 
@@ -73,11 +72,4 @@ collaborative-canvas/
 
 ## Time Spent
 - 3–4 days (development, testing, and debugging)
-
-This includes **only what is necessary** for submission: project info, setup, known limitations, and time spent.  
-
-If you want, I can also draft the **ARCHITECTURE.md** exactly like this so you can submit both without changes. Do you want me to do that?
-
-
-
 
