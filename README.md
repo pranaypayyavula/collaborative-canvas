@@ -38,7 +38,7 @@ collaborative-canvas/
 ├── package.json
 ├── README.md
 └── ARCHITECTURE.md
-
+```
 ---
 
 ##  Setup Instructions
@@ -77,5 +77,6 @@ Time Spent
 This includes **only what is necessary** for submission: project info, setup, known limitations, and time spent.  
 
 If you want, I can also draft the **ARCHITECTURE.md** exactly like this so you can submit both without changes. Do you want me to do that?
+
 
 
